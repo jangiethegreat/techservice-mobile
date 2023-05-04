@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  >
+
+
+
+    <TextView
+        android:id="@+id/textViewbrgyidrequestform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="FILE A COMPLAINT/REPORT FORM"
+        android:textAlignment="center"
+        android:textColor="#234880"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="6dp"
+            android:background="#ECECEC"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <TextView
+                android:id="@+id/textViewComplainantName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Complaint's Name (Buong pangalan ng nagrereklamo) : "
+                android:textColor="#234880"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtxtComplainantName"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="textMultiLine"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewCAddressInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Complaint's Address (address ng nagrereklamo) : "
+                android:textColor="#234880"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewCAddNo"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="No: "
+                android:textColor="#234880"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtxtCAddressno"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="number"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewCStreet"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Street: "
+                android:textColor="#234880"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtxtCStreet"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="textMultiLine"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewCZone"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Zone: "
+                android:textColor="#234880"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtxtCAddresszone"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="number"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewRespondentName"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Name (Buong pangalan ng inirereklamo) : "
+                android:textColor="#234880"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/edtxtRespondentName"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="textMultiLine"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewRespondentAge"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Age (edad ng inirereklamo) : "
+                android:textColor="#234880"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/edtxtRespondentAge"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="number"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewRAddNo"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="No: "
+                android:textColor="#234880"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtxtRAddressno"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="number"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewRStreet"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Street: "
+                android:textColor="#234880"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtxtRStreet"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="textMultiLine"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewRZone"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Zone: "
+                android:textColor="#234880"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtxtRAddresszone"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="number"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewComplaintDesc"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Complaint : "
+                android:textColor="#234880"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/edtxtComplaintDesc"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="textMultiLine"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewLocationAddressno"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Locationg (lugar ng pinangyarihan ) : "
+                android:textColor="#234880"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewLocNo"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="No: "
+                android:textColor="#234880"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/edtxtLocationAddressno"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="number"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewLocStreet"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Street: "
+                android:textColor="#234880"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtxtLocationStreet"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="textMultiLine"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewComplaintDate"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Date (kailan nangyari ) : "
+                android:textColor="#234880"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/edtxtComplaintDate"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="date"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewComplaintWhy"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Why (isalaysay kung bakit nagreklamo) : "
+                android:textColor="#234880"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/edtxtComplaintWhy"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="textLongMessage"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewComplainantPrayer"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Prayer (isalaysay ang nais mangyari) : "
+                android:textColor="#234880"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtxtComplainantPrayer"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="textLongMessage"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/cboxComplainantAgrees"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:textSize="18sp"
+                android:text="I hereby certify that the above information is true and correct to the best of my knowdge" />
+
+            <Button
+                android:id="@+id/btnComplaintSubmit"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#20ab5c"
+                android:text="Submit"
+                android:textAllCaps="false" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

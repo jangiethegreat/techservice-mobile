@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/untitled_design"
+    android:padding="50dp"
+    android:orientation="vertical"
+    tools:context=".Fragment.EditUserFragment">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="668dp"
+        android:layout_centerInParent="true"
+        android:background="#BF65b358"
+        android:paddingHorizontal="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:fontFamily="@font/baloo_da"
+            android:textColor="@color/white"
+            android:text="Edit User Info"/>
+
+        <ImageView
+            android:id="@+id/imgUserInfo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="59dp"
+            android:layout_marginBottom="10dp"
+            android:src="@color/colorLightGrey" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select photo"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtSelectPhoto"
+            android:textSize="16sp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="225dp"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtNameUserInfo"
+            android:layout_width="match_parent"
+            android:layout_marginTop="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:hint="Name"
+            android:fontFamily="@font/baloo_da"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:id="@+id/txtLayoutNameUserInfo"
+            android:inputType="text"
+            android:backgroundTint="@color/white"
+            android:textSize="15sp">
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/txtNumberUserInfo"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="345dp"
+            android:textColor="@color/black"
+            android:hint="Phone Number"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:fontFamily="@font/baloo_da"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtLayoutNumberUserInfo"
+            android:inputType="text"
+            android:textSize="15sp">
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnContinue"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="400dp"
+            android:layout_marginEnd="11dp"
+            android:layout_marginBottom="70dp"
+            android:background="@drawable/btn_round"
+            android:fontFamily="@font/baloo_da"
+            android:text="Continue"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="17dp" />
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

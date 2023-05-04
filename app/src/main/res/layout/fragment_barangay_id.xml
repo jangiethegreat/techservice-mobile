@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BarangayIdFragment">
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Request Barangay Id"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewbrgyidrequestform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="BARANGAY ID REQUEST FORM"
+        android:textAlignment="center"
+        android:textColor="#234880"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="6dp"
+            android:background="#ECECEC"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <TextView
+                android:id="@+id/textViewFullName"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Full Name :"
+                android:textColor="#234880"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/editTextFullName"
+                android:layout_width="336dp"
+                android:layout_height="46dp"
+                android:background="#FFFFFF"
+                android:textColor="#000"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewBirthday"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Birthday :"
+                android:textColor="#234880"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/editTextBirthday"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="textMultiLine"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewContact"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Contact No. :"
+                android:textColor="#234880"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+
+            <EditText
+                android:id="@+id/editTextContact"
+                android:layout_width="337dp"
+                android:textColor="#000"
+                android:layout_height="41dp"
+                android:background="#FFFFFF"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewAddress"
+                android:layout_width="339dp"
+                android:layout_height="48dp"
+                android:paddingTop="10dp"
+                android:text="Address"
+                android:textAlignment="center"
+                android:textColor="#234880"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewAddNo"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="No. :"
+                android:textColor="#234880"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/editTextAddNo"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="textMultiLine"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewAddStreet"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Street :"
+                android:textColor="#234880"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/editTextAddStreet"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="textMultiLine"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewAddZone"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Zone :"
+                android:textColor="#234880"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/editTextAddZone"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="textMultiLine"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewAddPrecintNo"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Precint No. :"
+                android:textColor="#234880"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+
+            <EditText
+                android:id="@+id/editTextAddPrecintNo"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="number"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewEmergency"
+                android:layout_width="385dp"
+                android:layout_height="46dp"
+
+                android:textColor="#234880"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:text="Incase of Emergency"
+                android:textSize="18sp"
+                android:textAlignment="center" />
+
+
+            <TextView
+                android:id="@+id/textViewEContactName"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Contact Name :"
+                android:textColor="#234880"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/editTextEContactName"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="textMultiLine"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewEContactNo"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Contact No. :"
+                android:textColor="#234880"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/editTextEContactNo"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="number"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />/>
+
+            <TextView
+                android:id="@+id/textViewEContactAdd"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Address :"
+                android:textColor="#234880"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/editTextEContactAdd"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="textMultiLine"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnBrgyIdSubmit"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#20ab5c"
+                android:text="Submit"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

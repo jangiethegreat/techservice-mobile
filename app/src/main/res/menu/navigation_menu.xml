@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuAbout"
+            android:icon="@drawable/ic_baseline_other_houses_24"
+            android:title="About Barangay" />
+        <item
+            android:id="@+id/menuComplain"
+            android:icon="@drawable/ic_reports"
+            android:title="Reports/Complaint" />
+        <item
+            android:id="@+id/menuCert"
+            android:icon="@drawable/ic_baseline_newspaper"
+            android:title="Request Clearance/Certificate " />
+        <item
+            android:id="@+id/menuBrgyid"
+            android:icon="@drawable/ic_baseline_perm_identity"
+            android:title="Request Barangay ID " />
+        <item
+            android:id="@+id/menuSched"
+            android:icon="@drawable/ic_baseline_vaccines"
+            android:title="Schedule Vaccination " />
+        <item
+            android:id="@+id/menuScholar"
+            android:icon="@drawable/ic_baseline_school"
+            android:title="Scholarship Application " />
+
+
+        <item
+            android:id="@+id/menuProfile"
+            android:icon="@drawable/ic_baseline_account_circle"
+            android:title="Profile" />
+        <item
+            android:id="@+id/menuLogout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+
+
+</menu>

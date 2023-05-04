@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="MY REQUEST"
+                android:textColor="#3949AB"
+                android:textSize="23sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="658dp"
+                android:background="#DADADA">
+
+                <TextView
+                    android:layout_width="260dp"
+                    android:layout_height="143dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="15dp"
+
+                    android:text="Here is the list of the documents you requested in our tech-service. If you wish to pay using Gcash, you can send the payment to given gcash details below:"
+                    android:textAlignment="center"
+                    android:textSize="17sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="115dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="160dp"
+                    android:layout_marginEnd="15dp"
+
+                    android:text="Gcash Number :"
+                    android:textAlignment="viewStart"
+                    android:textColor="#3949AB"
+                    android:textSize="16sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="132dp"
+                    android:layout_marginTop="160dp"
+
+                    android:text="09976355154"
+                    android:textSize="16sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="112dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="180dp"
+                    android:layout_marginEnd="15dp"
+
+                    android:text="Gcash Name :"
+                    android:textAlignment="viewStart"
+                    android:textColor="#3949AB"
+                    android:textSize="16sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="135dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="132dp"
+                    android:layout_marginTop="180dp"
+
+                    android:text="Abbygale Mendoza"
+                    android:textSize="16sp">
+
+                </TextView>
+
+                <View
+                    android:id="@+id/divider4"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="200dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@color/colorGrey" />
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="215dp"
+                    android:layout_marginEnd="10dp"
+
+                    android:text="Price"
+                    android:textColor="#3949AB"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="120dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="215dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="120dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <View
+                    android:id="@+id/divider5"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="245dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@color/colorGrey" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="260dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@color/white">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="400dp">
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="25dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+
+                            android:text="TRANSACTION SUMMARY"
+                            android:textColor="#3949AB"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/description"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="22dp"
+
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+
+                        <View
+                            android:id="@+id/divider6"
+                            android:layout_width="match_parent"
+                            android:layout_height="3dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="160dp"
+                            android:layout_marginEnd="10dp"
+                            android:background="@color/colorGrey">
+
+                        </View>
+
+                        <TextView
+                            android:layout_width="112dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="170dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginBottom="10dp"
+
+                            android:text="Total Amount :"
+                            android:textAlignment="viewStart"
+                            android:textColor="#3949AB"
+                            android:textSize="15sp"></TextView>
+
+                        <TextView
+                            android:id="@+id/total1"
+                            android:layout_width="50dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginTop="170dp"
+                            android:layout_marginBottom="10dp"
+
+                            android:text=""
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"></TextView>
+                        <TextView
+                            android:id="@+id/total2"
+                            android:layout_width="120dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="170dp"
+                            android:layout_marginTop="170dp"
+                            android:layout_marginBottom="10dp"
+
+                            android:text=""
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"></TextView>
+
+                        <View
+                            android:id="@+id/divider7"
+                            android:layout_width="match_parent"
+                            android:layout_height="3dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="200dp"
+                            android:layout_marginEnd="10dp"
+                            android:background="@color/colorGrey"></View>
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="210dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginBottom="10dp"
+
+                            android:text="Mode of delivery :"
+                            android:textAlignment="viewStart"
+                            android:textColor="#3949AB"
+                            android:textSize="15sp"></TextView>
+
+
+                        <RadioGroup
+                            android:id="@+id/radioGroupdelivery"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+
+                        <RadioButton
+                            android:id="@+id/radioGroupdeliverydeliver"
+                            android:layout_width="120dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="220dp"
+                            android:layout_marginEnd="5dp"
+                            android:text="Deliver"></RadioButton>
+
+                        <RadioButton
+                            android:id="@+id/radioGroupdeliverypickup"
+                            android:layout_width="120dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="220dp"
+                            android:layout_marginEnd="15dp"
+                            android:text="Pick-up"></RadioButton>
+                        </RadioGroup>
+
+                        <View
+                            android:id="@+id/divider8"
+                            android:layout_width="match_parent"
+                            android:layout_height="3dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="260dp"
+                            android:layout_marginEnd="10dp"
+                            android:background="@color/colorGrey"></View>
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="270dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginBottom="10dp"
+
+                            android:text="Mode of payment :"
+                            android:textAlignment="viewStart"
+                            android:textColor="#3949AB"
+                            android:textSize="15sp"></TextView>
+
+                        <RadioGroup
+                            android:id="@+id/radioGrouppayment"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                        <RadioButton
+                            android:id="@+id/radioGrouppaymentcash"
+                            android:layout_width="120dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="280dp"
+                            android:layout_marginEnd="15dp"
+                            android:text="Cash">
+
+                        </RadioButton>
+
+                        <RadioButton
+                            android:id="@+id/radioGrouppaymentgcash"
+                            android:layout_width="120dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="280dp"
+                            android:layout_marginEnd="15dp"
+                            android:text="GCASH"></RadioButton>
+                        </RadioGroup>
+                        <Button
+                            android:id="@+id/btnCartProceed"
+                            android:layout_width="150dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="120dp"
+                            android:layout_marginTop="320dp"
+                            android:layout_marginEnd="20dp"
+                            android:backgroundTint="#20ab5c"
+                            android:text="Proceed"
+                            android:textAlignment="center"
+                            android:textAllCaps="false" />
+
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

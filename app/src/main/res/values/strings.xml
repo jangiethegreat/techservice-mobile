@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">tech-service</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="barangay_id">Barangay ID</string>
+    <string name="reports" />
+    <string name="certificate">Certificate</string>
+    <string name="request_form_for_barangay_id">Request form for BARANGAY ID</string>
+    <string name="requirement_s">Requirement/s:</string>
+    <string name="_1_bring_1x1_id_picture">1.Bring 1x1 ID picture</string>
+    <string name="tech_service_north_signal">Tech-Service North Signal</string>
+    <string name="title_activity_auth">AuthActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_user_info">UserInfoActivity</string>
+    <string name="title_activity_on_board">OnBoardActivity</string>
+    <string name="title_activity_edit_user">EditUserActivity</string>
+
+
+    <string name="spinner_prompt">Select an item</string>
+
+    <string-array name="spinner_items">
+        <item>Hoshi</item>
+        <item>Pentavalent vaccine</item>
+        <item>Oral Polio Vaccine.</item>
+        <item>OralPPV - Senior Citizens</item>
+        <item>Oral Flu Vaccine - Adults</item>
+        <item>OralHPV o Human Papillomavirus Vaccine - Kids</item>
+        <item>TD o Tetanus-Diphtheria Vaccine - Kids</item>
+        <item> PCV or pneumococcal conjugate vaccine - Infants (Children immunization)</item>
+        <item>BCG or Bacille Calmette-Guerin - Infants (Children immunization)</item>
+        <item> Infuenza - Infants (Children immunization)</item>
+        <item>Hepatitis - Infants (Children immunization)</item>
+        <item>Diphtheria, Tetanus, and Pertussis - Infants (Children immunization)</item>
+        <item>Measles, Mumps, and Rubella - Infants (Children immunization)</item>
+        <item>Chicken Pox - Infants (Children immunization)</item>
+        <item>Oral Polio Vaccine. - Infants (Children immunization)</item>
+        <item>Pentavalent vaccine - Infants (Children immunization)</item>
+
+
+    </string-array>
+    <string name="title_activity_before_signin">BeforeSignin</string>
+
+</resources>

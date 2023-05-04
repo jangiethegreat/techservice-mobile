@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout_editor_absoluteX="-33dp"
+        tools:layout_editor_absoluteY="524dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="217dp"
+                android:layout_height="302dp"
+                android:layout_marginStart="115dp"
+                android:layout_marginTop="80dp"
+                android:layout_weight="1"
+
+                app:srcCompat="@drawable/logo_barangay" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/baloo_bhaijaan"
+                android:text="Barangay North Signal E-Public Service"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/baloo_paaji_2_semibold"
+                android:text="Electronic Public Services is provided by the barangay North Signal Village to extend the services to the residents. The system provides services and transactions you wish to have in the barangay, such as requesting clearances, certificates, permits, barangay ID, scheduling a vaccination to the health center, and even filing a complaint. E-public service also includes scholarships, submission of resumes for residents who wish to have a job, and donation drives for those in need. All of these services are now in digital form. E-public service show the data to which street and monitor the filed complaints to have more authorities dispatch to which street is the most complaint."
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/btnGetStarted"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#20ab5c"
+                android:text="Get Started"
+                android:textAllCaps="false" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="400dp"
+                        android:layout_margin="20dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#2348a0"
+                                android:textStyle="bold"
+                                android:fontFamily="@font/baloo_bhaijaan"
+                                android:text="Our Goal"
+                                android:textSize="25sp"
+                                android:layout_marginTop="10dp"/>
+
+                            <LinearLayout
+                                android:layout_width="350dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="350dp"
+                                    android:layout_height="120dp"
+                                    />
+
+
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="168dp"
+                                android:layout_margin="18dp"
+                                android:fontFamily="@font/baloo_bhaijaan"
+                                android:gravity="center"
+                                android:text="To improve the living standard provide health and safety, promote prosperity; Improve moral, peace and pride, comfort and convenience of the inhabitants of Barangay North Signal Village , Taguig City.
+"
+                                android:textColor="#2348a0"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="20dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#2348a0"
+                                android:textStyle="bold"
+                                android:fontFamily="@font/baloo_bhaijaan"
+                                android:text="Our Vision"
+                                android:textSize="25sp"
+                                android:layout_marginTop="10dp"/>
+
+                            <LinearLayout
+                                android:layout_width="350dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="350dp"
+                                    android:layout_height="120dp"
+                                    />
+
+                            </LinearLayout>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="168dp"
+                                android:layout_margin="20dp"
+                                android:fontFamily="@font/baloo_bhaijaan"
+                                android:gravity="center"
+                                android:text="Barangay North Signal Village takes pride in its people coming from all over the various regions of the archipelago, diverse in its origin and culturem but united in its effort, to establish a verdant community that is peaceful, healthy and livable.
+"
+                                android:textColor="#2348a0"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="20dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#2348a0"
+                                android:textStyle="bold"
+                                android:fontFamily="@font/baloo_bhaijaan"
+                                android:text="Our Mission"
+                                android:textSize="25sp"
+                                android:layout_marginTop="10dp"/>
+
+                            <LinearLayout
+                                android:layout_width="350dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="350dp"
+                                    android:layout_height="120dp"
+                                    />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="168dp"
+                                android:layout_margin="20dp"
+                                android:fontFamily="@font/baloo_bhaijaan"
+                                android:gravity="center"
+                                android:text="North Signal Village aims to enable its citizenry gain access to education, skills and livelihood trainings, sports and other programs that can equip and make them capable of earning an income to help raise their standard of living to live productive ad decent live. And to be able to actively carry out the mandates and ensure transparency, honesty and efficiemcy in the delivery of services in the Barangay.
+"
+                                android:textColor="#2348a0"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

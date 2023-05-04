@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CertificateFragment">
+
+
+    <TextView
+        android:id="@+id/textViewbrgyidrequestform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/baloo_da"
+        android:text="BARANGAY CERTIFICATE FORM"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#234880"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnRequirements"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:text="Requirements" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="6dp"
+            android:background="#ECECEC"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <CheckBox
+                android:id="@+id/cboxLateRegistration"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:textSize="18sp"
+                android:text="Late Registration of Live Birth" />
+
+            <CheckBox
+                android:id="@+id/cboxMedicalAssistance"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:textSize="18sp"
+                android:text="Medical Assistance" />
+
+            <CheckBox
+                android:id="@+id/cboxBurialAssistance"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:textSize="18sp"
+                android:text="Burial Assistance" />
+
+            <CheckBox
+                android:id="@+id/cboxLandOccupancy"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:textSize="18sp"
+                android:text="Land Occupany/Land Titling " />
+
+            <CheckBox
+                android:id="@+id/cboxPublicAttorney"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:textSize="18sp"
+                android:text="Public Attorney's Office (PAO)" />
+
+            <CheckBox
+                android:id="@+id/cboxPhilVetOffice"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:textSize="18sp"
+                android:text="Philippines Veterans Office (PVAO)" />
+
+            <CheckBox
+                android:id="@+id/cboxNoDeroatoryRecord"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:textSize="18sp"
+                android:text="No Deroatory Record/Good Moral" />
+
+            <CheckBox
+                android:id="@+id/cboxResidency"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:textSize="18sp"
+                android:text="Residency" />
+
+            <View
+                android:id="@+id/divider1"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="10dp"
+                android:background="#234880" />
+
+            <TextView
+                android:id="@+id/textViewReminder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                 android:text="Reminders: All blanks/question must be fill up\n(Dapat punan at sagutan ang lahat ng sumusunod.)"
+                android:textAlignment="center"
+                android:textColor="#234880"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="#234880" />
+
+            <TextView
+                android:id="@+id/textViewPurpose"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Purpose of  Clearance/Certificate : "
+                android:textColor="#234880"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtextPurpose"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="textMultiLine"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewVoter"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Are you a registered voter of this Barangay(Rehistrado kaba?): "
+                android:textColor="#234880"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtextVoter"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="textMultiLine"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewPendingCase"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Do you have pending case before the Barangay/Lupon Tagamayapa? : "
+                android:textColor="#234880"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtextPendingCase"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="textMultiLine"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="#234880" />
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Name : "
+                android:textColor="#234880"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtextName"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="textMultiLine"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewGender"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Gender : "
+                android:textColor="#234880"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/edtextGender"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="textMultiLine"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/textViewBdate"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Birthday : "
+                android:textColor="#234880"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtextBdate"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="date"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewPlaceBirth"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Place of Birth : "
+                android:textColor="#234880"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtextPlaceBirth"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="textMultiLine"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewNationality"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Nationality : "
+                android:textColor="#234880"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtextNationality"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="textMultiLine"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewContactNo"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Contact No. : "
+                android:textColor="#234880"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtextContactNo"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="number"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewAddress"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Address : "
+                android:textAlignment="center"
+                android:textColor="#234880"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewAddNo"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="No: "
+                android:textColor="#234880"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtextAddressNo"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="number"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewStreet"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Street : "
+                android:textColor="#234880"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtextAddressStreet"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="textMultiLine"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewZone"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Zone : "
+                android:textColor="#234880"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtextAddressZone"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="number"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewProAddress"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Provincial Address : "
+                android:textColor="#234880"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtextProAddress"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="textMultiLine"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewYrLiving"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Year since living in the Barangay  : "
+                android:textColor="#234880"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtextYrLiving"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="number"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/cboxAreyousure"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:textSize="18sp"
+                android:text="I hereby certify that the above information is true and correct to the best of my knowdge" />
+
+            <Button
+                android:id="@+id/btnCertificateSubmit"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#20ab5c"
+                android:text="Submit"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

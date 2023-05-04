@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@+id/menuAbout">
+
+    <fragment
+        android:id="@+id/menuScholar"
+        android:name="com.example.tech_service.ScholarshipFragment"
+        android:label="Scholarship"
+        tools:layout="@layout/fragment_scholarship" />
+    <fragment
+        android:id="@+id/menuAbout"
+        android:name="com.example.tech_service.Fragment.AboutBarangayFragment"
+        android:label="fragment_about_barangay"
+        tools:layout="@layout/fragment_about_barangay" />
+
+    <fragment
+        android:id="@+id/menuBrgyid"
+        android:name="com.example.tech_service.BarangayIdFragment"
+        android:label="Barangayid"
+        tools:layout="@layout/fragment_barangay_id" />
+    <fragment
+        android:id="@+id/menuComplain"
+        android:name="com.example.tech_service.ReportsFragment"
+        android:label="Reports"
+        tools:layout="@layout/fragment_reports" />
+    <fragment
+        android:id="@+id/menuCert"
+        android:name="com.example.tech_service.CertificateFragment"
+        android:label="Certificate"
+        tools:layout="@layout/fragment_certificate" />
+    <fragment
+        android:id="@+id/menuSched"
+        android:name="com.example.tech_service.ScheduleVaccinationFragment"
+        android:label="Schedule Vaccination"
+        tools:layout="@layout/fragment_schedule_vaccination" />
+    <fragment
+        android:name="com.example.tech_service.Fragment.ProfileFragment"
+        android:label="fragment_profile"
+        android:id="@+id/menuProfile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:name="com.example.tech_service.LogoutFragment"
+        android:label="fragment_logout"
+        android:id="@+id/menuLogout"
+        tools:layout="@layout/layout_sign_in" />
+
+</navigation>

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/menuSched"
+    tools:context=".ScheduleVaccinationFragment">
+
+    <TextView
+        android:id="@+id/textViewschedulevaccinationform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SCHEDULE VACCINATION "
+        android:textAlignment="center"
+        android:textColor="#234880"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="6dp"
+            android:background="#ECECEC"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textViewRequirements"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="Requirements:\n 1. Bring Valid ID \n 2. Screenshot of email sent to you "
+                android:textAlignment="center"
+                android:textColor="#234880"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="#234880" />
+
+            <TextView
+                android:id="@+id/textViewFullName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Full name :"
+                android:textColor="#234880"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/edtxtFullName"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="textMultiLine"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewPhoneNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Phone No :"
+                android:textColor="#234880"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtxtPhoneNo"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="number"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Email : "
+                android:textColor="#234880"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtxtEmail"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="textEmailAddress"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Type of Vaccine :"
+                android:textColor="#234880"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="340dp"
+        android:layout_height="35dp"
+        android:entries="@array/spinner_items"
+        android:prompt="@string/spinner_prompt"
+        />
+
+    <EditText
+        android:id="@+id/edtxtType"
+        android:layout_width="322dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="160dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:fontFamily="@font/baloo_da"
+        android:inputType="textMultiLine"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>
+
+
+
+
+            <TextView
+                android:id="@+id/textViewRDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Registration Date :"
+                android:textColor="#234880"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/edtxtRDate"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="date"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            <Button
+                android:id="@+id/datepicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="select date"/>
+
+            <TextView
+                android:id="@+id/textViewRTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Registration Time :"
+                android:textColor="#234880"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtxtRTime"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="time"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            <Button
+                android:id="@+id/timepicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="select time"/>
+
+            <TextView
+                android:id="@+id/textViewAddress"
+                android:layout_width="428dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Address : "
+                android:textAlignment="center"
+                android:textColor="#234880"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewVAddNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="No. :"
+                android:textColor="#234880"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtxtVAddressno"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="number"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textViewVStreet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="4dp"
+                android:fontFamily="@font/baloo_da"
+                android:text="Street :"
+                android:textColor="#234880"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/edtxtVAddressStreet"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="160dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/baloo_da"
+                android:inputType="textMultiLine"
+                android:padding="4dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnScheduleSubmit"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="#20ab5c"
+                android:text="Submit"
+                android:textAllCaps="false" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
